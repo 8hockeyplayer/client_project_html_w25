@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="html5reset.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Page 1</title>
 </head>
 <body>
 
     <header>
-            <a href = "">Skip to Main Content</a>
+            <a class = "skip" href = "">Skip to Main Content</a>
             <nav>
-                <ul>
+                <ul class = "navigation">
                     <li><a href = "index.html">Home</a></li>
                     <li><a href = "advising.html">Academic Advising</a></li>
                     <li><a href = "tutoring.html">Tutoring</a></li>
@@ -21,14 +23,24 @@
 
     </header>
     <main>
-        <div>
-            <p>The University of Michigan School of Information offers dedicated academic advising to ensure your academic success. Anything from class scheduling, to degree planning or general program questions can be answered. Students are welcome to schedule 1-on-1 appointments with advisors or drop in at one of the drop in advising times. Quick questions can also be answered over email by emailing <a href= "mailto:umsi.advising.bsi@umich.edu">umsi.advising.bsi@umich.edu</a>. If you would like more information or to schedule a 1-on-1 appointment, please vist the <a href = "https://sites.google.com/umich.edu/bsiacademicadvising/academic-advising?authuser=1">UMSI Advising Website</a>.</p>
+        <section>
+            <h2>BSI Academic Advising</h2>
+            <div>
+                <p>The University of Michigan School of Information offers dedicated academic advising to ensure your academic success. Anything from class scheduling, to degree planning or general program questions can be answered. Students are welcome to schedule 1-on-1 appointments with advisors or drop in at one of the drop in advising times. Quick questions can also be answered over email by emailing <a href= "mailto:umsi.advising.bsi@umich.edu">umsi.advising.bsi@umich.edu</a>. If you would like more information or to schedule a 1-on-1 appointment, please vist the <a href = "https://sites.google.com/umich.edu/bsiacademicadvising/academic-advising?authuser=1">UMSI Advising Website</a>.</p>
 
-        </div>
-        <figure>
-            <img src="https://umdearborn.edu/sites/default/files/styles/multi_img_carousel/public/2024-06/2024_04_04_CASL_1637.jpg?itok=DFkQCjgg" alt="A student in a 1-on-1 meeting with an advisor">
-        </figure>
-
+            </div>
+            <figure>
+                <img src="https://umdearborn.edu/sites/default/files/styles/multi_img_carousel/public/2024-06/2024_04_04_CASL_1637.jpg?itok=DFkQCjgg" alt="A student in a 1-on-1 meeting with an advisor">
+            </figure>
+        </section>
+        <section class = 'adv2'>
+            <h2>UMSI Career Development Office</h2>
+            <div>
+                <p>UMSI also offeres dedicated career advisors to assist students as they pursue internships and full time employment. The UMSI Career Development Office has all the tools of the LSA Career Center and can simliarly assit with anything from resume reviews to mock interviewing. By using School of Information resources however, the career advisors are there to help to make the most of your School of Information degree and can help you use your UMSI expereince to maximum effect. If you would like to learn more about the UMSI Career Development Office please visit their <a href="https://www.si.umich.edu/student-experience/career-development">website</a> which will have links allowing you to schedule 1-on-1 appointments and information on upcoming events.</p>
+            </div>
+            <figure><img src="https://www.si.umich.edu/sites/default/files/styles/cta_image_2x/public/2019-08/MikeWilliamsCareerCoaching.jpg?itok=Nt4GHb-Y" alt="The UMSI Career Center conducting an information session on interviewing">
+            </figure>
+        </section>
 
     </main>
     <footer>
