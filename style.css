@@ -113,6 +113,7 @@ nav {
  }
  figcaption{
      margin-bottom: 10px;
+     font-size: 1vw;
  }
  .across{
      grid-column: 1/-1;
@@ -228,8 +229,11 @@ h3{
      color: #ffcb0b;
      text-decoration: underline;
 }
-p{
-     font-size: 2vw;
+.subpage p{
+     font-size: 1vw;
 }
 
+.navigation li{
+     font-size: 2vw;
+}
 
