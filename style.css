@@ -36,8 +36,8 @@ nav {
      flex-grow: 1;
 }
 .logo{
-   height: 15%;
-   width: 14%;
+   height: 10%;
+   width: 9%;
 
 }
 .navigation {
@@ -151,21 +151,21 @@ nav {
  .mhealth h3:last-of-type{
     grid-column: 1/-1;
  }
- /* Positioning text and images */
+ 
  .mhealth article:nth-child(odd) figure {
-     grid-column: 1; /* Image on the left */
+     grid-column: 1;
  }
  
  .mhealth article:nth-child(odd) p {
-     grid-column: 2; /* Text on the right */
+     grid-column: 2;
  }
  
  .mhealth article:nth-child(even) figure {
-     grid-column: 2; /* Image on the right */
+     grid-column: 2;
  }
  
  .mhealth article:nth-child(even) p {
-     grid-column: 1; /* Text on the left */
+     grid-column: 1;
  }
  section:nth-child(even) article {
      order: 2;
@@ -178,12 +178,11 @@ nav {
  
  figure img {
      /* max-width: 100%; */
-     width: 100%;
+     width: 40vw;
      height: 100%;
      border-radius: 8px;
  }
  
- /* Headings */
  h2 {
      grid-column: span 2;
      text-align: center;
@@ -229,51 +228,8 @@ h3{
      color: #ffcb0b;
      text-decoration: underline;
 }
-@media screen and (min-width: 900px) {
-     .mhealth h3:last-of-type{
-          grid-column: 1;
-       }
-     #rec{
-          grid-column: 2;
-          grid-row: 3;
-     }
-       /* Positioning text and images */
-       .mhealth article:nth-child(odd) p{
-           grid-column: 1;
-       }
-         
-       .mhealth article:nth-child(even) figure{
-           grid-column: 2;
-           grid-row: 4;
-       }
-       
-       .mhealth article:nth-child(even) p {
-           grid-column: 2;
-           grid-row: 5;
-       }
-       section:nth-child(even) article {
-           order: 2;
-       }
-       main{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-       }
-     main section{
-          display: block;
-
-     }
-     #NQ{
-          grid-column: 1/-1;
-          justify-content: center;
-     }
-     main section p{
-          padding: 15px;
-     }
-     section:last-of-type{
-          margin-bottom: 20px;
-     }
-     .mhealth, .slide, #MH, #life-outside-classroom{
-          grid-column: 1/-1;
-     }
+p{
+     font-size: 2vw;
 }
+
 
