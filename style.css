@@ -374,6 +374,9 @@ h3{
  .dark-mode footer a{
      color: rgba(0, 50, 106, 0.80);
  }
+ .dark-mode a{
+     color: rgba(0, 50, 106, 0.80)
+ }
  body {
      background-color: var(--bg-color);
      color: var(--text-color);
