@@ -2,6 +2,9 @@
 It was modified to fit my format, but some of the colors, properties, and general principles were used.
 Inspiration: https://umich.edu/life-at-michigan/ and https://umich.edu/ */
 
+/* Also please note that the css and html for the dark mode was written using assistance from UM-GPT and Google.
+Ironically the pieces I wrote myself work better (lol) but it is necessary to note the help from these sources */
+
 nav li{
      display:inline;
        
@@ -332,4 +335,61 @@ h3{
      .navigation li{
           font-size: inherit;
      }
+ }
+
+ :root {
+     --bg-color: #f4f4f4;
+     --text-color: black;
+     --nav-bg: #002c5a;
+     --nav-text: #ffcb0b;
+     --section-bg: black;
+     --section-text: white;
+ }
+ 
+ .dark-mode {
+     --bg-color: lightgrey;
+     --text-color: white;
+     --nav-bg: #001a33;
+     --nav-text: #ffcb0b;
+     --section-bg: white;
+     --section-text: black;
+ }
+ .dark-mode header h1{
+     background-color: lightgrey;
+     color: #002c5a;
+ }
+ .dark-mode main{
+     background-color: lightgrey;
+ }
+ .dark-mode h2{
+     color: rgba(0, 50, 106, 0.80);
+ }
+ .dark-mode h3{
+     color: rgba(0, 50, 106, 0.80);
+ }
+ .dark-mode footer{
+     background-color: lightgrey;
+     color: black;
+ }
+ .dark-mode footer a{
+     color: rgba(0, 50, 106, 0.80);
+ }
+ body {
+     background-color: var(--bg-color);
+     color: var(--text-color);
+     transition: background-color 0.3s ease, color 0.3s ease;
+ }
+ 
+ .navigation a {
+     background-color: var(--nav-bg);
+     color: var(--nav-text);
+ }
+ 
+ section {
+     background-color: var(--section-bg);
+     color: var(--section-text);
+ }
+ button{
+     background-color: rgba(0, 50, 106, 0.80);
+     color: #ffcb0b;
  }
