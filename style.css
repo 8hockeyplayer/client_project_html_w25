@@ -282,6 +282,9 @@ h3{
  .container a:hover {
      background: #0056b3;
  }
+ .four_body main{
+     display: inherit;
+ }
 
 @media screen and (min-width: 900px) {
      .mhealth h3:last-of-type{
