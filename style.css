@@ -239,4 +239,97 @@ h3{
 .navigation li{
      font-size: 3vw;
 }
+.four_body{
+     font-family: Arial, sans-serif;
+     background-color: #333333;
+     text-align: center;
+     padding: 50px;
+ }
+ .container {
+     background: black;
+     padding: 40px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ .container h1 {
+     font-size: 80px;
+     margin: 0;
+     color: #ffcb0b;
+     align-items: center;
+ }
+ #container_p {
+     font-size: 20px;
+     color: #ffcb0b;
+     padding: 10px;
+ }
+ .container a {
+     display: inline-block;
+     margin-top: 20px;
+     padding: 10px 20px;
+     font-size: 18px;
+     color: #ffcb0b;
+     background: rgba(0, 50, 106, 0.80);
+     text-decoration: none;
+     border-radius: 5px;
+ }
+ .container a:hover {
+     background: #0056b3;
+ }
 
+@media screen and (min-width: 900px) {
+     .mhealth h3:last-of-type{
+          grid-column: 1;
+       }
+     #rec{
+          grid-column: 2;
+          grid-row: 3;
+     }
+            .mhealth article:nth-child(odd) p{
+           grid-column: 1;
+       }
+         
+       .mhealth article:nth-child(even) figure{
+           grid-column: 2;
+           grid-row: 4;
+       }
+       
+       .mhealth article:nth-child(even) p {
+           grid-column: 2;
+           grid-row: 5;
+       }
+       section:nth-child(even) article {
+           order: 2;
+       }
+       main{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+       }
+     main section{
+          display: block;
+ 
+     }
+     #NQ{
+          grid-column: 1/-1;
+          justify-content: center;
+     }
+     main section p{
+          padding: 15px;
+     }
+     section:last-of-type{
+          margin-bottom: 20px;
+     }
+     .mhealth, .slide, #MH, #life-outside-classroom{
+          grid-column: 1/-1;
+     }
+     .subpage p{
+          font-size: inherit;
+     }
+     
+     .navigation li{
+          font-size: inherit;
+     }
+ }
